@@ -1,0 +1,25 @@
+.thumb-image-container {
+  position: relative;
+}
+
+.thumb-image-text {
+  display: block;
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  text-align: center;
+  transform: translateY(-50%);
+  width: 100%;
+  
+  /* For transition effect */
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.thumb-image-container:hover .thumb-image-text {
+  display: block;
+  opacity: 1;
+}
+
