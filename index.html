@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="./Sterling-Vantage_files/froala_editor.pkgd.min.css">
   <link rel="stylesheet" href="./Sterling-Vantage_files/froala_style.min.css">
   <link rel="stylesheet" href="./Sterling-Vantage_files/main.css">  
+  <link rel="stylesheet" href="./Sterling-Vantage_files/bootstrap.css"/>
+  <link rel="stylesheet" href="./Sterling-Vantage_files/clientlib-all.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
   <style data-fp="">
 body, html {
   margin: 0;
@@ -191,12 +195,676 @@ span.fr-emoticon.fr-emoticon-img {
   font-size: 18px;
   text-align: center; 
 }
-  
- 
+
+
+
+.ceo {
+            margin-top: 50px;
+        }
+
+        .precomm {
+            margin-top: 20px;
+        }
+
+        #navbarButton {
+            border: 0px;
+            background-color: #ffffff00;
+            display: none;
+        }
+
+        .icon-bar {
+            width: 30px;
+            display: block;
+            height: 2px;
+            margin-top: 5px;
+        }
+
+      /*  .navbarheight {
+            height: 192px !important;
+        } */
+
+        td[class="pattern2"] table {
+            padding: 10px 0px 10px 90px
+        }
+
+        #manageBookingOtpDiv {
+            display: none;
+        }
+
+        .container .row {
+            background-color: white;
+        }
+
+        .faq {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+            .faq ul {
+                list-style-type: disc;
+            }
+
+            .faq .card-body {
+                margin-left: 40px;
+            }
+            span.question{
+                display:block;
+                padding:3px;
+            }
+            span.answer{
+                display:block;
+                font-weight:bold;
+                color:seagreen;
+                padding:7px;
+            }
+        @media only screen and (max-width: 899px) {
+            #navbarButton {
+                display: block;
+            }
+
+      .navbar-nav:not(.head-Menulist){
+                display: none;
+            } 
+
+            .nav .navbar-nav .pd-0 {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            /* .logo {
+                margin-left: 83px;
+            } */
+        }
+
+
+        @media only screen and (max-width: 599px) {
+            td[class="pattern"] table {
+                width: 100%;
+            }
+
+            td[class="pattern2"] table {
+                padding: 10px 0px 10px 0px;
+            }
+
+            td[class="image"] img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            td[class="pattern"] .col {
+                width: 100%;
+            }
+
+            td[class="col"] .col-1 {
+                width: 50%;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            td[class="pattern"] .col1 {
+                width: 100%;
+            }
+
+            td[class="col1"] .col1-1 {
+                width: 50%;
+            }
+
+            .navbar {
+                padding: 0px;
+            }
+            .ha-header-subshow #bookNowSticky{
+			 display: block !important
+			}
+            .ceo {
+                margin-top: 10px;
+                margin-left: 50px;
+                text-align: center;
+                width: 350px;
+                margin: 0 auto;
+                font-size: 18px !important;
+            }
+
+            .precomm {
+                margin-top: 10px;
+                margin-left: 50px;
+                text-align: center;
+                margin: 0 auto;
+                font-size: 18px !important;
+            }
+
+            #ceoimage {
+                max-width: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            td[class="col"] .col-1 {
+                width: 100%;
+                display: block;
+                padding-left: 0 !important;
+                border-left: none !important
+            }
+
+            td[class="col1"] .col1-1 {
+                width: 100%;
+                display: block
+            }
+        }
+
+        .navbar-nav {
+            flex-direction: row ;
+        }
+        
+        .header-top-action {
+            font-size: 12px;
+        }
+
+        #bookNowSticky, .Hidden-logo {
+            display: none;
+        }
+
+        #sterling-navbar {
+            font-size: 11px;
+        }
+
+        .navbar-nav a:hover {
+            text-decoration: none;
+        }
+
+        .col-xs-12 img {
+            padding-right: 29px;
+            padding-left: 29px;
+            background-color: white;
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+  @media (min-width:992px){
+   /*  .collapse:not(.show) {
+    display: block !important;
+}*/
+#ceoimage{
+    width: 69% !important;
+}
+.header-top-action{
+    margin-right: 14px !important;
+}
+.ceo-Txt p{
+    font-size: 25px !important;
+}
+
+.Home-img1{
+    width: 100%;
+    padding-top: 66px;
+}
+.head-Menulist{
+    display: flex !important;
+}
+.ha-header-show #sterling-navbar .head-Menulist{
+            flex-direction: column !important;
+
+        }
+   }
+   @media (max-width:991.98px){
+    #ceoimage {
+    width: 80% !important;
+}
+    .ceo-Txt p {
+    font-size: 20px !important;
+}
+    .navbarheight {
+    height: 192px !important;
+}
+.Home-Img7{
+    width: 100% !important;
+}
+.ha-header-show #sterling-navbar{
+    top:50px
+}
+.head-Menulist{
+    background: linear-gradient(90deg,#e3ded8 0,#e2ddd6 25%,#e4e4e3 40%,#e2ded7 50%,#c8d2da 100%) !important;
+}
+   }
+   #sterling-navbar li{
+    color: #2e2e2e !important;
+    font-size: 1.071em;
+    font-weight: 600;
+    letter-spacing: .070px;
+    padding-right: 10px;
+    margin-left: 4.5px;
+   }
+   @media (max-width:991.98px) and (min-width:768px){
+       .Home-img1{
+           padding-top: 115px !important;
+       }
+    .navbar-nav > li > a{
+        padding: 0 22px 0 15px;
+    }
+    .navbar-nav > li{
+        line-height: 40px;
+    }
+    .ha-header-subshow .ha-header-bottom{
+        top:48%;
+    }
+    .precomm {
+    margin-top: 13px !important;
+}
+   }
+   .home-normalTxt, .namaste-txt{
+    color: #000; 
+    font-size: 21px;
+   }
+   .home-normalTxt, .namaste-txt, .SterlingCare-txt{
+    padding: 0px;
+    font-weight: normal !important;
+    line-height: 25px;
+    font-family: 'Source Sans Pro' !important;  
+    text-align: center !important;
+    margin-bottom: 0;
+   }
+   @media(min-width:992px){
+    .home-normalTxt, .namaste-txt, .SterlingCare-txt{
+        line-height: 34px;
+    }
+
+   }
+   .SterlingCare-txt{
+    color: #7f298a; 
+    font-size: 25px; 
+    font-weight: bold !important;
+   }
+   .quote-container{
+    padding: 0px 101px;
+   }
+   .precomm {
+    margin-top: 35px;
+}
+#theme-Body{
+    max-width:1120px !important;
+    margin:0 auto;
+}
+.entry-timesec img{
+    width:83.5%;
+}
+.sanitized-sec img{
+    width: 93%;
+}
+.accordion .card-header:before {
+    font-family: 'FontAwesome';
+    content: "\f077";
+    float: right;
+    color: #f04f38;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-right: 15px;
+    justify-content: center;
+}
+.accordion .card-header.collapsed:before {
+    content: "\f078"; 
+}
+.accordion .card-header{
+    background-color: #f04f38;
+    border: 1px solid #f04f38;
+    cursor: pointer;
+}
+#collapseAdditional{
+    border: 1px solid #f04f38;
+}
+.accordion .card-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.accordion .card-title:hover{
+    color: fff;
+}
+#accordion, #accordion-Faq{
+    text-align: left;
+}
+.card-header a:not([href]):hover {
+    color: #fff;
+}
+span.add-question, .add-answer, .add-question {
+    font-size: 17px;
+    font-weight: 500;
+}
+.add-answer {
+color: seagreen;
+font-weight: bold;
+}
+#accordion-Faq .card-header{
+    margin-bottom: 20px;
+}
+#accordion-Faq .card{
+    border: 1px solid transparent !important;
+}
+#accordion-Faq .card-header{
+    border-radius: 5px;
+}
+.text-left {
+    text-align: left !important;
+}
+.pattern {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.home-Foodimg{
+    width: 90% !important;
+}
+
+.Home-img2, .Home-img3, .Home-img5, #ceoimage, .Home-Img7{
+    height: auto !important;
+}
+   
+
+
+
+
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
+  max-width: 1920px;
+}
+#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
+  position: relative;
+  display: block;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(137, 38, 128, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
 </style>
-          </head>
-          <body>
-          <section class="fdb-block" data-block-type="contents" data-id="1" draggable="true">
+
+</head>
+<body>
+  <div class="header">
+    <div id="sticky-header" style="height: 0px;"></div>
+    <div>
+        <div></div>
+        <div id="ip-container" class="ip-container loaded">
+            <div class="loader-logo-bg"></div>
+            <div class="loader-logo"></div>
+            <div id="popupp" style="background: rgba(0, 0, 0, 0)">
+                <div class="new-sterling">
+                    <div class="ip-loader text-center">
+                        <br />
+                        <div class="loader-img" style="display: none;">
+                            <svg class="ip-inner" width="0px" height="0px" viewBox="0 0 0 0" style="display: none;">
+                                <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"></path>
+                                <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" style="stroke-dashoffset: 0; stroke-dasharray: 192.617;"></path>
+                            </svg>
+                            <div id="loader"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-controller="headerCtrl" class="ng-scope">
+        <!-- ngIf: !mCtrl.isLoggedIn -->
+        <header ng-if="!mCtrl.isLoggedIn" id="ha-header" class="ha-header default-header ng-scope ha-header-subshow">
+            <div class="ha-header-perspective">
+                <div class="ha-header-front ">
+                    <div class="container px-md-3 px-1">
+                        <div class="pull-left navbar">
+                            <div class="navbar-header pull-left">
+                                <span>
+                                    <a class="navbar-brand" href="/" ng-click="makeActive(&quot;&quot;,value)" x-cq-linkchecker="valid">
+                                        <img class="logo hidden-xs" alt="Sterling Holidays logo" title="Sterling Holidays" src="./Sterling-Vantage_files/sterling-logo.png" />
+                                        <!-- <img class="logo hidden-sm hidden-md hidden-lg" alt="Sterling Holidays logo" title="Sterling Holidays" src="logos/sterling-logo-mobile.png"> -->
+                                    </a>
+                                    <span class="mobile-cart prelog_cart hidden-md hildden-lg showall opacity-visible" id="showCard" ng-click="showCard()" aria-hidden="true" style="display: none;"><img src="/etc/designs/sterlingholidays/images/cart_mobicon-blk.png" /><span class="counter-tag" style="display: none;"></span></span>
+                                </span>
+                                <span class="glyphicon glyphicon-menu-hamburger fs-21 show-main-menu"></span>
+                            </div>
+                            <div class="pull-left">
+                                <button id="navbarButton" type="button" class="navbar-toggle collapsed" data-target="#sterling-navbar" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="header-top-action">
+                            <a href="tel:9003302727" class="h-icons-sprite h-icons-phone hide-txt">9003302727</a>
+
+                            <a href="https://www.sterlingholidays.com/feedback-and-queries" ng-click="goToFeedbackAndQueriesPage()" class="h-icons-sprite h-icons-fq hide-txt" ng-show="mCtrl.userType!=mCtrl.USER.VO">Feedback &amp; Query</a>
+                           
+                            <a href="https://www.sterlingholidays.com/"  class="h-icons-sprite h-icons-setting hide-txt manageBooking" >Manage Booking</a>
+                           
+                            <a href="https://www.sterlingholidays.com/"  class="h-icons-sprite h-icons-lock hide-txt">LOGIN / SIGN UP</a>
+                           
+                            <!-- <a href="#feedback" ng-click="goTovoFeedBackUrl('#feedback')" class="h-icons-sprite h-icons-fq hide-txt ng-hide" ng-show="mCtrl.userType==mCtrl.USER.VO">Feedback &amp; Query</a> -->
+                         <!--- <div class="booking-dropdown dropdown">
+                                <a class="h-icons-sprite h-icons-setting hide-txt manageBooking" href="#" ng-click="toggleManageBookingDropdown($event)" id="toggleManageBookingDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage Booking</a>
+                                <div id="manageBookingDrpMenu-otp" class="bk-dropdown-menu dropdown-menu manageBookingDrpMenu">
+                                    <button title="Close" ng-click="closeManageBooking()" id="closeManageBooking" type="button" class="close top-10" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 5%;z-index: 9;">
+                                        <span aria-hidden="true">x</span>
+                                    </button>
+                                    <div class="row" id="manageBookingForm">
+                                        <div class="nopadding mb20 col-xs-12">
+                                            <input maxlength="20" class="form-control ng-pristine ng-valid ng-valid-maxlength ng-touched ng-untouched" type="text" ng-blur="checkHeaderValidation('booking_no', booking_no)" placeholder="Booking reference no./ ID" ng-model="booking_no" name="booking_no" id="booking_no" value="" autocomplete="off" />
+                                            <span ng-show="bookingNoError ? true : false" ng-bind="bookingNoError" class="invalid ng-binding ng-hide"></span>
+                                        </div>
+
+                                        <div class="col-lg-12 nopadding mb15">
+                                            <button type="button" ng-disabled="findBookingDisabledCheckForManageBooking()" class="pull-left btn primary-btn btn-mob" id="find_booking" ng-click="getOtpForMangeBooking()">FIND BOOKING</button>
+                                        </div>
+                                        <div class="col-lg-12 nopadding red-color mt-15" id="invalidManageBookingID" style="display:none">
+                                            Please enter a valid mobile and Booking reference no./ ID
+                                        </div>
+                                    </div>
+                                    <div class="form-container ng-hide" ng-show="showOtpToRegister" id="manageBookingOtpDiv">
+                                        <div class="mb-15 password-lenght ng-binding" id="manageBookingOtpText">
+                                        </div>
+                                        <div class="mb-10">
+                                            <input id="manage_booking_otp" type="text" ng-model="individual.signupform.otp" ng-blur="checkManageBookingOtpValue();" value="" placeholder="Enter OTP" autocomplete="off" class="ng-pristine ng-untouched ng-valid" />
+                                            <span class="invalid ng-binding" style="display:none" id="invalidManageOtp">Please enter a valid OTP</span>
+
+                                        </div>
+                                        <div class="mb-15 password-lenght">
+                                            <button type="button" class="red-link-button fs-16 fw-600 pd-0" ng-click="resendManageBookingOTP()">
+                                                RESEND OTP<i></i>
+                                            </button>
+                                        </div>
+                                        <div class="mb-25 ng-binding ng-hide" ng-show="isOTPResentForManageBooking">OTP has been resent to &amp; </div>
+                                        <button class="btn primary-btn-large mb-10 " ng-disabled="buttonDisableForManageBooking()" ng-click="getCVDetailsForManageBooking()" type="button" disabled="disabled">Submit</button>
+                                    </div>
+                                </div>
+                            </div> -->
+                           <!--- <a class="h-icons-sprite h-icons-lock hide-txt" data-toggle="modal" ng-click="clearLoginData()" data-target="#modal-authentication"  target="_blank" href="https://www.sterlingholidays.com/bookings#login#as-member-member">LOGIN / SIGN UP</a>-> <!-- ngIf: bookNowVisible --><a class="btn btn-tertiary pull-right booknow visible-xs visible-sm secondary-link ng-scope" id="bookNowSticky" ng-if="bookNowVisible" href="/bookings"><!-- ngIf: isNotMICE --><span ng-if="isNotMICE" class="ng-scope">Book Now</span><!-- end ngIf: isNotMICE --><!-- ngIf: !isNotMICE --></a><!-- end ngIf: bookNowVisible -->
+                        </div>
+                    </div>
+                </div>
+                <div class="top-header ha-header-bottom">
+                    <div class="container"> 
+                        <div id="sterling-navbar" class="nav-details sterling-navbar collapse navbar-collapse book-now-show show">
+                            <ul class="nav navbar-nav pd-0 header-Bookbtn">
+                                <li class="visible-md visible-lg"><a class="btn btn-tertiary pull-right secondary-link" id="bookNowNrml" ng-show="bookNowVisible" href="https://www.sterlingholidays.com/bookings" style="display: block;"><!-- ngIf: isNotMICE --><span ng-if="isNotMICE" class="ng-scope">Book Now</span><!-- end ngIf: isNotMICE --><!-- ngIf: !isNotMICE --></a></li>
+                            </ul>
+                            <ul class="nav navbar-nav head-Menulist">
+                                <li>
+                                    <a ng-click="makeActive('HOLIDAY EXPERIENCES',value)" ng-class="{ 'active': active=='HOLIDAY EXPERIENCES'}" href="https://www.sterlingholidays.com/experiences/">HOLIDAY EXPERIENCES</a>
+                                </li>
+                                <li>
+                                    <a ng-click="makeActive('RESORTS &amp; DESTINATIONS',value)" ng-class="{ 'active': active=='RESORTS &amp; DESTINATIONS'}" href="https://www.sterlingholidays.com/resorts-hotels">RESORTS &amp; DESTINATIONS</a>
+                                </li>
+                                <li>
+                                    <a ng-click="makeActive('STERLING MEMBERSHIP',value)" ng-class="{ 'active': active=='STERLING MEMBERSHIP'}" href="https://www.sterlingholidays.com/sterling-membership">STERLING MEMBERSHIP</a>
+                                </li>
+                                <li>
+                                    <a ng-click="makeActive('OFFERS &amp; PACKAGES',value)" ng-class="{ 'active': active=='OFFERS &amp; PACKAGES'}" href="https://www.sterlingholidays.com/offers-packages">OFFERS &amp; PACKAGES</a>
+                                </li>
+                                <li>
+                                    <a ng-click="makeActive('MEETINGS &amp; EVENTS',value)" ng-class="{ 'active': active=='MEETINGS &amp; EVENTS'}" href="https://www.sterlingholidays.com/meetings-events" style="display: inline-block;">MEETINGS &amp; EVENTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end ngIf: !mCtrl.isLoggedIn -->
+            <!-- ngIf: mCtrl.isLoggedIn -->
+            <a href="javascript:" id="go2top" ng-click="goToTop()" style="display: none;"><i class="glyphicon glyphicon-arrow-up"></i></a>
+        </header>
+    </div>
+</div>
+
+
+<div class="ha-header-show">
+    <div class="ha-header-front">
+        <div class="container">
+            <div class="pull-left navbar">
+                <div class="navbar-header pull-left">
+                    <span>
+                        <a class="navbar-brand" href="/" ng-click="makeActive(&quot;&quot;,value)" x-cq-linkchecker="valid">
+                            <img class="logo hidden-xs  Hidden-logo" alt="Sterling" title="Sterling" src="./images/adtoi-footer-logo.png" />
+                            <!-- <img class="logo hidden-sm hidden-md hidden-lg" alt="Sterling" title="Sterling" src="logos/sterling-logo-mobile.png"> -->
+                        </a>
+                        <!-- <span class="mobile-cart prelog_cart hidden-md hildden-lg showall opacity-visible" id="showCard" ng-click="showCard()" aria-hidden="true"><img src="/etc/designs/sterlingholidays/images/cart_mobicon-blk.png"><span class="counter-tag" style="display: none;"></span></span> -->
+                    </span>
+                    <span class="glyphicon glyphicon-menu-hamburger fs-21 show-main-menu"></span>
+                </div>
+                <div class="pull-left">
+                    <!-- <button id="navbarButton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sterling-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    </button> -->
+                </div>
+            </div>
+            <div class="header-top-action">
+                <a href="tel:9003302727%20" class="h-icons-sprite h-icons-phone hide-txt">9003302727 </a>
+
+                <a href="/feedback-and-queries" ng-click="goToFeedbackAndQueriesPage()" class="h-icons-sprite h-icons-fq hide-txt  user_not_logged_js">FEEDBACK &amp; QUERY </a>
+
+
+
+                <div class="booking-dropdown dropdown">
+                    <a class="h-icons-sprite h-icons-setting hide-txt manageBooking" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage Booking</a>
+                    <div id="manageBookingDrpMenu-otp" class="bk-dropdown-menu dropdown-menu manageBookingDrpMenu">
+                        <button title="Close" id="closeManageBooking" type="button" class="close top-10" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 5%;z-index: 9;">
+                            <span aria-hidden="true">x</span>
+                        </button>
+                        <div class="row" id="manageBookingForm">
+                            <div class="nopadding mb20 col-xs-12">
+                                <input maxlength="20" class="form-control" type="text" placeholder="Booking reference no./ ID" name="booking_no" id="booking_no" value="" autocomplete="off" />
+                                <span id="bookingNoError" class="invalid"></span>
+                            </div>
+                            <div class="col-lg-12 nopadding mb15">
+                                <button type="button" disabled="disabled" class="pull-left btn primary-btn btn-mob" id="find_booking">FIND BOOKING</button>
+                            </div>
+                            <div class="col-lg-12 nopadding red-color mt-15" id="invalidManageBookingID" style="display:none">
+                                Please enter a valid mobile and Booking reference no./ ID
+                            </div>
+                        </div>
+                        <div class="form-container hide" id="manageBookingOtpDiv" style="display: none;">
+                            <div class="mb-15 password-lenght" id="manageBookingOtpText"></div>
+                            <div class="mb-10">
+                                <input id="manage_booking_otp" type="text" value="" placeholder="Enter OTP" autocomplete="off" class="" />
+                                <span class="invalid" style="display:none" id="invalidManageOtp">Please enter a valid OTP</span>
+                            </div>
+                            <div class="mb-15 password-lenght">
+                                <button type="button" class="red-link-button fs-16 fw-600 pd-0" id="resendManageBookingOTP">
+                                    RESEND OTP<i></i>
+                                </button>
+                            </div>
+                            <div class="mb-25 hide" id="isOTPResentForManageBooking">OTP has been resent to &amp; </div>
+                            <button class="btn primary-btn-large mb-10 " disabled="disabled" id="getCVDetailsForManageBooking" type="button">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="h-icons-sprite h-icons-lock hide-txt" onclick="signInModal(false)" target="_blank" href="https://www.sterlingholidays.com/bookings#login#as-member">LOGIN / SIGN UP</a> <a class="btn btn-tertiary pull-right booknow visible-xs visible-sm" id="bookNowSticky" href="https://www.sterlingholidays.com/bookings"><span>Book Now</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="top-header ha-header-bottom">
+        <div class="container">
+            <div id="sterling-navbar" class="nav-details sterling-navbar collapse navbar-collapse book-now-show">
+                <ul class="nav navbar-nav pd-0 visible-xs ">
+                    <li class="visible-md visible-lg"><a class="btn btn-tertiary pull-right" id="bookNowNrml" href="https://www.sterlingholidays.com/bookings"><span>Book Now</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav visible-xs small-menu-not-logged-in">
+                    <li>
+                        <a href="https://www.sterlingholidays.com/experiences" target="_self">Holiday Experiences</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sterlingholidays.com/resorts-hotels" target="_self">Resorts &amp; Destinations</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sterlingholidays.com/offers-packages" target="_self">Offers &amp; Packages</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sterlingholidays.com/sterling-membership" target="_self">Sterling Membership</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sterlingholidays.com/meetings-events" target="_self">Meetings &amp; Events</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="visible-sm visible-md visible-lg visible-xl">
+                <div class="header-menu lg-menu-not-logged-in">
+                    <div class="">
+                        <nav id="menu" class="sterling-navbar dm-menu dm-menu_item-border">
+                            <ul>
+                                <li>
+                                    <a href="https://www.sterlingholidays.com/experiences" target="_self">Holiday Experiences</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sterlingholidays.com/resorts-hotels" target="_self">Resorts &amp; Destinations</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sterlingholidays.com/offers-packages" target="_self">Offers &amp; Packages</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sterlingholidays.com/sterling-membership" target="_self">Sterling Membership</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.sterlingholidays.com/meetings-events" target="_self">Meetings &amp; Events</a>
+                                </li>
+                                <li class="visible-md visible-lg" data-dm-class="visible-md visible-lg">
+                                    <a class="mega-booknow-btn" id="bookNowNrml" href="https://www.sterlingholidays.com/bookings"><span>Book Now</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<section class="fdb-block" data-block-type="contents" data-id="1" draggable="true">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 col-md-6 mb-4 mb-md-0"><p><img alt="image" class="img-fluid" src="./Sterling-Vantage_files/Cimg.jpeg" width="465" height="475" title=""></p></div>
@@ -207,35 +875,121 @@ span.fr-emoticon.fr-emoticon-img {
           <p align="center" style="color:#8C1C81; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="lead"><strong> 10 Years of Holidays at Today's Prices</strong> </p>
       <p align="center" style="color: white;" ><a class="btn btn-secondary mt-4" href="https://www.froala.com/">Click To Know More</a></p></div>
     </div>
-  </div>
-</section>
- 
-<section class="fdb-block" data-block-type="features" data-id="2" draggable="true">
-  <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-left"><h2 align="center">Why Sterling Vantage is the Best Holiday Membership</h2><p align="center" class="lead">Small Write-Up with suitable iconography</p></div>
     </div>
+    <div class="grid-container">
+      <div class="grid-item"><p><h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">One to More Value for Money etc</h3></p></div>
+      <div class="grid-item"><p><h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">More Discoveries Per Year</h3></p></div>
+      <div class="grid-item"><p><h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">More Flexibility</h3></p></div>
    
-   <div class="grid-container">
-    <div class="grid-item"><p><h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">One to More Value for Money etc</h3></p></div>
-    <div class="grid-item"><p><h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">More Discoveries Per Year</h3></p></div>
-    <div class="grid-item"><p><h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">More Flexibility</h3></p></div>
- 
-  </div>
-  </div>
-</section>
+    </div>
 
-<section class="fdb-block fp-active" data-block-type="features" data-id="3" draggable="true">
-  <div class="container">
+
+
+
     <div class="row justify-content-center">
       <div class="col-12 text-left"><h2 align="center">Benefits of Sterling Vantage</h2></div>
     </div>
  
-      
-    <div class="row text-left mt-5">
- 
+<section>
+
+  <div id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+          <div class="row text-left mt-5"> 
+          <div class="col-10 col-sm-4"> 
+                <a class="portfolio-box" href="./Sterling-Vantage_files/div-1.jpg">
+                    <img class="img-fluid rounded" src="./Sterling-Vantage_files/div-1.jpg" alt="" />
+                    <div class="portfolio-box-caption"> 
+                        <div class="project-name">Over 30 best-in-class resorts at popular as well as offbeat destinations and continuously expanding; put ‘everywhere’ on your bucket list.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-2.jpg">
+                <img class="img-fluid" src="./Sterling-Vantage_files/div-2.jpg" alt="" />  
+                <div class="portfolio-box-caption">
+                      
+                        <div class="project-name">Mountains, beaches, jungles, riverside or heritage – choose from a variety of holiday experiences at diverse destinations.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-3.jpg">
+                <img class="img-fluid" src="./Sterling-Vantage_files/div-3.jpg" alt="" />
+                    <div class="portfolio-box-caption"> 
+                        <div class="project-name">Access more than 4,000 resorts in over 100 countries at Indian prices through RCI (Resorts Condominiums International).</div>
+                    </div>
+                </a>
+            </div>
+          </div>
+          <div class="row text-left mt-5"> 
+            <div class="col-10 col-sm-4"> 
+                  <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-4.jpg">
+                      <img class="img-fluid" src="./Sterling-Vantage_files/div-4.jpg" alt="" />
+                      <div class="portfolio-box-caption"> 
+                          <div class="project-name">Designed for families, our apartments are tastefully appointed with top-notch amenities and are sizeable, unlike cramped hotel rooms.</div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-5.jpg">
+                  <img class="img-fluid" src="./Sterling-Vantage_files/div-5.jpg" alt="" />           <div class="portfolio-box-caption">
    
- 
+                          <div class="project-name">Spend quality time with your partner while your kids are having fun and are taken care of at our Holiday Activity Centre.</div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-6.jpg">
+                  <img class="img-fluid" src="./Sterling-Vantage_files/div-6.jpg" alt="" />        <div class="portfolio-box-caption">
+                        
+                          <div class="project-name">We understand that your holiday needs can change every time. With our unique points system, enjoy complete flexibility of season, apartment type, multiple rooms and short breaks.</div>
+                      </div>
+                  </a>
+              </div>
+            </div>
+          <div class="row text-left mt-5">
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-7.jpg">
+                <img class="img-fluid" src="./Sterling-Vantage_files/div-7.jpg" alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Category</div>
+                        <div class="project-name">As a Sterling member, gift your loved ones a memorable holiday. Or gift them an entire membership.</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-8.jpg">
+                <img class="img-fluid" src="./Sterling-Vantage_files/div-8.jpg" alt="" />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Category</div>
+                        <div class="project-name">Over 100,000 families are enjoying great holidays with Sterling membership for over 3 decades. Join them now. </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box rounded" href="./Sterling-Vantage_files/div-9.jpg">
+                <img class="img-fluid" src="./Sterling-Vantage_files/div-9.jpg" alt="" />
+                    <div class="portfolio-box-caption p-3"> 
+                        <div class="project-name">As a member, just choose where and when you want to holiday and leave the rest to us. From transfers to holiday planning, we enable hassle-free holidays all the way! </div>
+                    </div>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-left"><h2 align="center">Benefits of Sterling Vantage</h2></div>
+    </div>
+   
+    <div class="row justify-content-center"> 
       <div class="col-10 col-sm-4">
         <div class="thumb-image-container">
           <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-1.jpg" />
@@ -249,24 +1003,9 @@ span.fr-emoticon.fr-emoticon-img {
           <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-2.jpg" />
           <span class="thumb-image-text">Mountains, beaches, jungles, riverside or heritage – choose from a variety of holiday experiences at diverse destinations.</span>
         </div>
-      </div>
-
-      <div class="ccol-10 col-sm-4">
-        <div class="thumb-image-container">
-          <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-3.jpg" />
-          <span class="thumb-image-text">Access more than 4,000 resorts in over 100 countries at Indian prices through RCI (Resorts Condominiums International).</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="row text-left mt-5">
-      <div class="col-10 col-sm-4 ">
-        <div class="thumb-image-container">
-          <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-4.jpg" />
-          <span class="thumb-image-text">Designed for families, our apartments are tastefully appointed with top-notch amenities and are sizeable, unlike cramped hotel rooms.</span>
-        </div>
-      </div>
-
+      </div> 
+    </div> 
+    <div class="row justify-content-center"> 
       <div class="col-10 col-sm-4 ">
         <div class="thumb-image-container">
           <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-5.jpg" />
@@ -279,9 +1018,10 @@ span.fr-emoticon.fr-emoticon-img {
           <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-6.jpg" />
           <span class="thumb-image-text">We understand that your holiday needs can change every time. With our unique points system, enjoy complete flexibility of season, apartment type, multiple rooms and short breaks.</span>
         </div>
-      </div>
+      </div> 
     </div>
-    <div class="row text-left mt-5">
+    <div class="row justify-content-center">
+  
       <div class="col-10 col-sm-4 ">
         <div class="thumb-image-container">
           <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-7.jpg" />
@@ -294,20 +1034,13 @@ span.fr-emoticon.fr-emoticon-img {
           <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-8.jpg" />
           <span class="thumb-image-text">Over 100,000 families are enjoying great holidays with Sterling membership for over 3 decades. Join them now. </span>
         </div>
-      </div>
-
-      <div class="col-10 col-sm-4 ">
-        <div class="thumb-image-container">
-          <img alt="image" class="img-fluid rounded" src="./Sterling-Vantage_files/div-9.jpg" />
-          <span class="thumb-image-text">As a member, just choose where and when you want to holiday and leave the rest to us. From transfers to holiday planning, we enable hassle-free holidays all the way! </span>
-        </div>
       </div> 
+    </div>    
     </div>
-  </div>
-</section>
+  </section>
 
- 
-<section class="fdb-block" data-block-type="contents" data-id="4" draggable="true">
+  
+<section class="fdb-block" data-block-type="contents" data-id="5" draggable="true">
   <div class="container">
    
     <div class="row justify-content-center">
@@ -315,7 +1048,7 @@ span.fr-emoticon.fr-emoticon-img {
     </div>
   </div>
 </section>
-<section class="fdb-block" data-block-type="contents" data-id="7" draggable="true">
+<section class="fdb-block" data-block-type="contents" data-id="6" draggable="true">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-8 col-md-7">
@@ -333,7 +1066,7 @@ span.fr-emoticon.fr-emoticon-img {
     </div>
   </div>
 </section>
-<section class="fdb-block" data-block-type="testimonials" data-id="5" draggable="true">
+<section class="fdb-block" data-block-type="testimonials" data-id="7" draggable="true">
   <div class="container">
    
           
@@ -385,9 +1118,8 @@ span.fr-emoticon.fr-emoticon-img {
            
         </div>
      
-</section>
- 
-<section class="fdb-block" data-block-type="testimonials" data-id="6" draggable="true">
+</section> 
+<section class="fdb-block" data-block-type="testimonials" data-id="8" draggable="true">
   <div class="container">
     
          <div class="gbox">
@@ -427,9 +1159,8 @@ span.fr-emoticon.fr-emoticon-img {
        
 
         </div>
-</section>
- 
-<section class="fdb-block" data-block-type="contents" data-id="8" draggable="true" style="background-image: url(https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//shapes/9.svg);">
+</section> 
+<section class="fdb-block" data-block-type="contents" data-id="9" draggable="true" style="background-image: url(https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//shapes/9.svg);">
   <div class="container">
     <div class="row text-center justify-content-center">
       <div class="col-md-10 col-lg-8 col-xl-7"><h1>OUR MEMBERS LOVE US</h1></div>
@@ -457,7 +1188,7 @@ span.fr-emoticon.fr-emoticon-img {
     </div>
  
 </section>
-<section class="fdb-block" data-block-type="testimonials" data-id="9" draggable="true">
+<section class="fdb-block" data-block-type="testimonials" data-id="10" draggable="true">
   <div class="container">
     <div class="row text-center justify-content-center">
       <div class="col-md-10 col-lg-8 col-xl-7"><h1>Sterling Discoveries </h1><p class="lead">We, at Sterling are creating curated experiences for holidayers, both within and outside the resort, by facilitating experiences in local cuisine, culture, history, nature, adventure etc. From night safaris to authentic culinary experiences and culture trails, Sterling is seeking to offer guests many ways to holiday differently.</p></div>
@@ -505,10 +1236,8 @@ span.fr-emoticon.fr-emoticon-img {
         </div>
    
         </div>
-</section> 
-
-
-<section class="fdb-block" data-block-type="contents" data-id="10" draggable="true">
+</section>  
+<section class="fdb-block" data-block-type="contents" data-id="11" draggable="true">
   <div class="container">
     <div class="col-12 text-left">&nbsp;<p align="center" class="lead"><h1>Sterling Cares in association with Apollo Clinics</h1></p></div>
 
@@ -522,11 +1251,173 @@ span.fr-emoticon.fr-emoticon-img {
  
   </div>
 </section> 
-      <script src="./Sterling-Vantage_files/jquery-3.3.1.slim.min.js.download"></script>
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-top-area">
+          <div class="footer-inner">
+              <div class="row">
+                  <div class="col-lg-9 col-md-12 footer-links">
+                      <ul class="nav navbar-nav d-flex footer-Listlnk">
+                          <li><a href="https://www.sterlingholidays.com/about-us">ABOUT US</a></li>
+                          <li>
+                              <a href="https://www.sterlingholidays.com/whats-new">WHAT'S NEW</a>
+                          </li>
+                          <li><a href="https://www.sterlingholidays.com/purplehues">MAGAZINE</a></li>
+                          <li><a href="https://www.sterlingholidays.com/media">MEDIA</a></li>
+                          <li><a href="https://www.sterlingholidays.com/careers">CAREERS</a></li>
+                          <li><a href="https://www.sterlingholidays.com/contact-us">CONTACT US</a></li>
+                          <li><a href="https://www.sterlingholidays.com/spa-wellness">SPA</a></li>
+                          <li><a href="https://www.sterlingholidays.com/privacy-policy">PRIVACY POLICY</a></li>
+                          <li><a href="https://www.sterlingholidays.com/holidayinsurance">HOLIDAY INSURANCE</a></li>
+                          <li><a href="https://www.sterlingholidays.com/awards">AWARDS</a></li>
+                          <li><a href="https://www.sterlingholidays.com/holidaygraphy">HOLIDAYGRAPHY</a></li>
+                          <li><a href="https://www.sterlingholidays.com/partnerus">PARTNER WITH US</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-12 social-icons d-flex justify-content-center">
+                      <div class="pull-right xs-pull-left">
+                          <div>
+                              <div class="row">
+                                  <div class="col-md-12 social-icons xs-mt-15">
+                                      <div class="pull-left">
+                                          <span>Follow us:</span>
+                                          <a class="social-facebook" href="https://www.facebook.com/sterlingholidays" target="_blank"></a>
+                                          <a class="social-twitter" href="https://twitter.com/worldofsterling" target="_blank"></a>
+                                          <a class="social-instagram" href="https://instagram.com/sterlingholidays" target="_blank"></a>
+                                          <a class="social-linkedin" href="https://www.linkedin.com/company/sterling-holiday-resorts-india-ltd" target="_blank"></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-inner">
+          <div class="row">
+              <div class="col-lg-2 col-sm-3">
+                  <div>
+                      <h5>PART OF</h5>
+                      <div>
+                          <a href="https://www.fairfax.ca/" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="Fair Fax" src="./Sterling-Vantage_files/fairfax-logo-footer.png" style="display: inline;" />
+                          </a>
+                          <a x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="Space" src="./Sterling-Vantage_files/spacer_footer.jpg" style="display: inline;" />
+                          </a>
+                          <a href="https://www.thomascook.in/" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="Thomascook" src="./Sterling-Vantage_files/thomas-cook-footer.png" style="display: inline;" />
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-sm-2">
+                  <div>
+                      <h5>SUBSIDIARY COMPANY</h5>
+                      <div>
+                          <a href="https://bit.ly/from-shrl" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="nature trails" src="./Sterling-Vantage_files/naturetrails-footer-logo.png" style="display: inline;" />
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-2 pd-0 xs-ml-15">
+                  <div>
+                      <h5>MEMBERS OF</h5>
+                      <div>
+                          <a href="http://www.arda.org/arda/home.aspx" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="arda" src="./Sterling-Vantage_files/arda-logo-footer.png" style="display: inline;" />
+                          </a>
+                          <a href="http://www.airda.org" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="airda" src="./Sterling-Vantage_files/airda-footer-logo.png" style="display: inline;" />
+                          </a>
+                          <a href="http://www.iato.in" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="iato" src="./Sterling-Vantage_files/iato-footer-logo.png" style="display: inline;" />
+                          </a>
+                          <a href="http://www.adtoi.in/" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="adtoi" src="./Sterling-Vantage_files/adtoi-footer-logo.png" style="display: inline;" />
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-sm-3 pd-0 xs-ml-15">
+                  <div>
+                      <h5>RECOMMENDED ON</h5>
+                      <div>
+                          <a href="https://www.tripadvisor.in/" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="Tripadvisor" src="./Sterling-Vantage_files/tripadvisor-logo-footer.png" style="display: inline;" />
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-1 col-sm-2">
+                  <div>
+                      <h5>PARTNERS</h5>
+                      <div>
+                          <a href="https://www.rci.com/" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="rci" src="./Sterling-Vantage_files/rci-logo-footer.png" style="display: inline;" />
+                          </a>
+                          <a href="https://www.wyndhamdestinations.com/wd/home.page" target="_blank" x-cq-linkchecker="valid">
+                              <img class="pb-10 lazy" alt="wyndham" src="./Sterling-Vantage_files/wydm-logo-footer.png" style="display: inline;" />
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <p>Copyright © Sterling Holiday Resorts Limited 2020.</p>
+  </div>
+</footer>
+<script src="./Sterling-Vantage_files/jquery-3.3.1.slim.min.js.download"></script>
+<script src="./Sterling-Vantage_files/bootstrap.js"></script>
 <script src="./Sterling-Vantage_files/popper.min.js.download"></script>
 <script src="./Sterling-Vantage_files/bootstrap.min.js.download"></script>
 <script src="./Sterling-Vantage_files/froala_editor.pkgd.min.js.download"></script>
 <script src="./Sterling-Vantage_files/all.min.js.download"></script>
-          
-          
+<script src="./Sterling-Vantage_files/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function () {
+       //$('#navbarButton').click(function () {
+         //  $('.navbar-nav:not(.pd-0)').show(100);
+         //  $('#sterling-navbar').addClass('navbarheight');
+       ///});
+
+      $('#closeManageBooking').click(function () {
+          $('#manageBookingDrpMenu-otp').hide(50);
+      });
+      $('#toggleManageBookingDropdown').click(function () {
+          $('#manageBookingDrpMenu-otp').show(50);
+      });
+      $(document).on('click','#navbarButton',function(){
+          debugger;
+          $("#sterling-navbar").toggleClass("collapse in");
+      })
+      $('#find_booking').click(function () {
+
+          $.ajax({
+              method: "POST",
+              url: "https://beta-api.sterlingholidays.com/common/manageBookingUsingOtp",
+              data: { cvNumber: $('#booking_no').val() },
+              contentType: 'application/json; charset=utf-8',
+              success: function (data) {
+                  var response = $.parseJSON(data);
+                  $('#invalidManageBookingID').html(response.statusMessage);
+              },
+              error: function (jqXHR, exception) {
+                  $('#invalidManageBookingID').html('Error: Try again later.');
+              }
+          });
+      });
+
+  });
+
+  function toggleManageBookingDropdown() {
+      $('#manageBookingDrpMenu-otp').show(50);
+  }
+
+</script>
           </body></html>
