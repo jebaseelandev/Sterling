@@ -23,3 +23,20 @@
   opacity: 1;
 }
 
+/* Mobile devices */
+@media (max-width: 767px) {
+  .ha-header-show {
+    height: 50px;
+  }
+
+  .fdb-block {
+    padding: 0;
+  }
+}
+
+/* Helpers */
+.mb2 {
+  margin-bottom: 20px;
+}
+
+
